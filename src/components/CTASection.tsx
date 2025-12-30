@@ -27,7 +27,7 @@ const CTASection = () => {
             size="xl" 
             className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 hover:scale-105 transition-all duration-300 shadow-lg"
           >
-            Request a Discussion
+            Request a Demo
             <ArrowRight className="w-5 h-5" />
           </Button>
         </div>

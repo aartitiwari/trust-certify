@@ -1,4 +1,4 @@
-import { ShieldCheck, Clock, QrCode, Globe, Check, X } from "lucide-react";
+import { ShieldCheck, Clock, QrCode, Globe, Check, X, Eye } from "lucide-react";
 
 const enablesFeatures = [
   {
@@ -16,6 +16,11 @@ const enablesFeatures = [
   {
     icon: Globe,
     title: "Independent verification without institutional intervention",
+  },
+  {
+    icon: Eye,
+    title: "Global visibility of credential verification activity",
+    description: "Institutions gain real-time insight into where, when, and how their certificates are being verified globally—without manual intervention.",
   },
 ];
 
@@ -42,7 +47,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* Features grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto mb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-7xl mx-auto mb-20">
           {enablesFeatures.map((feature, index) => (
             <div
               key={index}
@@ -54,6 +59,11 @@ const FeaturesSection = () => {
               <p className="text-foreground font-medium leading-relaxed">
                 {feature.title}
               </p>
+              {'description' in feature && feature.description && (
+                <p className="text-muted-foreground text-sm mt-2">
+                  {feature.description}
+                </p>
+              )}
             </div>
           ))}
         </div>

@@ -9,7 +9,7 @@ const Footer = () => {
           <div className="flex items-center gap-3">
             <Shield className="w-6 h-6 text-primary" />
             <span className="font-heading text-lg font-bold text-foreground">
-              CertifySecure
+              EmerCerts
             </span>
           </div>
 
@@ -31,7 +31,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-sm text-muted-foreground">
-            © 2024 CertifySecure. All rights reserved.
+            © 2024 EmerCerts. All rights reserved.
           </p>
         </div>
       </div>

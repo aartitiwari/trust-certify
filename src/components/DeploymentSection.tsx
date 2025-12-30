@@ -55,7 +55,7 @@ const DeploymentSection = () => {
           ))}
         </div>
 
-        {/* Deployed with */}
+        {/* Trusted by leading organisations */}
         <div className="max-w-4xl mx-auto">
           <h3 className="font-heading text-2xl font-bold text-foreground text-center mb-8">
             Trusted by Leading Organisations
