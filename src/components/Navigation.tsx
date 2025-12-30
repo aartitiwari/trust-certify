@@ -9,6 +9,8 @@ const Navigation = () => {
     { name: "Problem", href: "#problem" },
     { name: "Solution", href: "#solution" },
     { name: "Features", href: "#features" },
+    { name: "Security", href: "#cdp" },
+    { name: "Implementation", href: "#implementation" },
     { name: "Value", href: "#value" },
     { name: "Use Cases", href: "#deployment" },
   ];
@@ -24,12 +26,12 @@ const Navigation = () => {
               <div className="absolute inset-0 bg-primary/20 blur-xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
             </div>
             <span className="font-heading text-xl font-bold text-foreground">
-              CertifySecure
+              EmerCerts
             </span>
           </a>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden lg:flex items-center gap-6">
             {navLinks.map((link) => (
               <a
                 key={link.name}
@@ -44,13 +46,13 @@ const Navigation = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="hero" size="default">
-              Request a Discussion
+              Request a Demo
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-foreground"
+            className="lg:hidden p-2 text-foreground"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -59,7 +61,7 @@ const Navigation = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border animate-slide-up">
+          <div className="lg:hidden absolute top-full left-0 right-0 bg-background border-b border-border animate-slide-up">
             <div className="flex flex-col py-4 px-6 gap-4">
               {navLinks.map((link) => (
                 <a
@@ -72,7 +74,7 @@ const Navigation = () => {
                 </a>
               ))}
               <Button variant="hero" size="default" className="mt-2">
-                Request a Discussion
+                Request a Demo
               </Button>
             </div>
           </div>

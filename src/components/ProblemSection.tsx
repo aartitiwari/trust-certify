@@ -1,4 +1,4 @@
-import { AlertTriangle, Mail, Clock } from "lucide-react";
+import { AlertTriangle, Mail, Clock, Bot } from "lucide-react";
 
 const problems = [
   {
@@ -15,6 +15,11 @@ const problems = [
     icon: Clock,
     title: "Inability to prove issuance details",
     description: "Establishing when a certificate was issued, and whether it was altered, becomes difficult over time.",
+  },
+  {
+    icon: Bot,
+    title: "AI-enabled certificate counterfeiting",
+    description: "Recent years have seen multiple reported cases globally where forged degree certificates and professional credentials purportedly issued by well-known universities and institutes were generated using advanced digital and AI tools. These documents closely replicate official formats, seals, and signatures, making visual inspection ineffective.",
   },
 ];
 
@@ -34,7 +39,7 @@ const ProblemSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
           {problems.map((problem, index) => (
             <div
               key={index}
