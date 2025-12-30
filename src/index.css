@@ -6,49 +6,49 @@
 
 @layer base {
   :root {
-    --background: 38 45% 91%;
+    --background: 0 0% 100%;
     --foreground: 300 38% 15%;
 
-    --card: 38 45% 95%;
+    --card: 0 0% 98%;
     --card-foreground: 300 38% 15%;
 
-    --popover: 38 45% 95%;
+    --popover: 0 0% 100%;
     --popover-foreground: 300 38% 15%;
 
     --primary: 300 38% 39%;
-    --primary-foreground: 38 45% 95%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 38 30% 85%;
+    --secondary: 0 0% 96%;
     --secondary-foreground: 300 38% 25%;
 
-    --muted: 38 25% 88%;
+    --muted: 0 0% 94%;
     --muted-foreground: 300 20% 40%;
 
     --accent: 300 38% 39%;
-    --accent-foreground: 38 45% 95%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 300 20% 75%;
-    --input: 300 20% 75%;
+    --border: 0 0% 88%;
+    --input: 0 0% 88%;
     --ring: 300 38% 39%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --cream: 38 45% 91%;
-    --cream-light: 38 50% 96%;
-    --cream-dark: 38 35% 82%;
+    --cream: 0 0% 100%;
+    --cream-light: 0 0% 99%;
+    --cream-dark: 0 0% 95%;
     --purple: 300 38% 39%;
     --purple-light: 300 38% 55%;
     --purple-dark: 300 38% 25%;
     --purple-glow: 300 60% 70%;
 
     /* Gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--cream)) 0%, hsl(var(--cream-light)) 50%, hsl(var(--cream)) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(0 0% 98%) 50%, hsl(0 0% 100%) 100%);
     --gradient-purple: linear-gradient(135deg, hsl(var(--purple)) 0%, hsl(var(--purple-light)) 100%);
-    --gradient-card: linear-gradient(180deg, hsl(var(--cream-light)) 0%, hsl(var(--card)) 100%);
+    --gradient-card: linear-gradient(180deg, hsl(0 0% 99%) 0%, hsl(0 0% 98%) 100%);
 
     /* Shadows */
     --shadow-soft: 0 4px 30px hsl(var(--purple) / 0.08);
@@ -234,9 +234,9 @@
 .animate-shimmer {
   background: linear-gradient(
     90deg,
-    hsl(var(--cream)) 0%,
-    hsl(var(--cream-light)) 50%,
-    hsl(var(--cream)) 100%
+    hsl(0 0% 100%) 0%,
+    hsl(0 0% 98%) 50%,
+    hsl(0 0% 100%) 100%
   );
   background-size: 200% 100%;
   animation: shimmer 3s linear infinite;
