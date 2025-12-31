@@ -19,8 +19,8 @@ const enablesFeatures = [
   },
   {
     icon: Eye,
-    title: "Global visibility of credential verification activity",
-    description: "Institutions gain real-time insight into where, when, and how their certificates are being verified globally—without manual intervention.",
+    title: "Global Visibility of Credential Verification Activity",
+    description: "Institutions can track where and when their certificates are verified, providing insights into global verification activity without manual intervention.",
   },
 ];
 

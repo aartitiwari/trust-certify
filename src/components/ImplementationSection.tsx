@@ -4,26 +4,22 @@ const implementationFeatures = [
   {
     icon: LayoutDashboard,
     title: "Organisation-Wide Credential Dashboard",
-    subtitle: "Centralised visibility and control",
-    description: "A secure, institution-wide dashboard enables administrators to view, manage, and monitor all issued certificates, batches, and verification activity from a single interface.",
+    description: "A centralised platform to monitor and manage certificates and verifications.",
   },
   {
     icon: Link2,
     title: "Integration with Existing Result Systems",
-    subtitle: "Works with what you already use",
-    description: "The platform can ingest results data from existing academic systems, ERPs, or assessment platforms through structured data inputs, enabling credential issuance once results are finalised.",
+    description: "Easily integrates with current academic systems for seamless certificate issuance.",
   },
   {
     icon: FileSpreadsheet,
     title: "Excel Uploads with Custom Templates",
-    subtitle: "Simple onboarding for legacy or offline systems",
-    description: "Institutions may upload results and batch data using configurable Excel templates aligned to their internal formats for certificates, results, and metadata.",
+    description: "Simple bulk data uploads using custom Excel templates for results and certificates.",
   },
   {
     icon: Paintbrush,
     title: "White-Label Deployment",
-    subtitle: "Institution-owned experience",
-    description: "EmerCerts can be deployed under institution-specific branding, domains, and visual identity—ensuring continuity of trust and institutional ownership.",
+    description: "Fully customisable to align with institutional branding and experience.",
   },
 ];
 
@@ -57,13 +53,10 @@ const ImplementationSection = () => {
               <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-5 group-hover:scale-110 group-hover:bg-primary/20 transition-all duration-300">
                 <feature.icon className="w-7 h-7 text-primary" />
               </div>
-              <h3 className="font-heading text-lg font-bold text-foreground mb-1">
+              <h3 className="font-heading text-lg font-bold text-foreground mb-3">
                 {feature.title}
               </h3>
-              <p className="text-primary text-sm font-medium mb-3">
-                {feature.subtitle}
-              </p>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-muted-foreground text-sm leading-relaxed font-body">
                 {feature.description}
               </p>
             </div>

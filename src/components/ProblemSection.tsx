@@ -19,7 +19,7 @@ const problems = [
   {
     icon: Bot,
     title: "AI-enabled certificate counterfeiting",
-    description: "Recent years have seen multiple reported cases globally where forged degree certificates and professional credentials purportedly issued by well-known universities and institutes were generated using advanced digital and AI tools. These documents closely replicate official formats, seals, and signatures, making visual inspection ineffective.",
+    description: "AI tools are increasingly used to forge degree certificates and credentials, replicating official formats, seals, and signatures, making visual verification ineffective.",
   },
 ];
 

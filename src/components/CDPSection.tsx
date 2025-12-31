@@ -4,26 +4,26 @@ const cdpFeatures = [
   {
     icon: Fingerprint,
     title: "What is CDP?",
-    subtitle: "Security beyond standard QR codes",
-    description: "A Copy Detection Pattern is a cryptographic, noise-based pattern that degrades when copied or reproduced, allowing authenticity checks to distinguish original certificates from duplicates or forgeries.",
+    subtitle: "A security upgrade for QR codes",
+    description: "CDP is a cryptographic pattern that degrades when copied, allowing institutions to verify authenticity and detect counterfeit certificates.",
   },
   {
     icon: Bot,
     title: "Protection Against AI-Generated Counterfeits",
-    subtitle: "Designed for the AI era",
-    description: "Unlike standard QR codes or PDFs, CDP-backed QR codes cannot be reliably recreated by generative AI tools, scanners, or image-editing software.",
+    subtitle: "Resistant to digital reproduction",
+    description: "CDP ensures QR codes cannot be easily recreated using AI tools or digital scanners, offering enhanced protection against counterfeit certificates.",
   },
   {
     icon: Layers,
     title: "Layered with Blockchain Verification",
-    subtitle: "Physical + digital trust",
-    description: "CDP secures the physical certificate, while blockchain anchoring secures the issuance record—creating a dual-layer defence against both document forgery and data manipulation.",
+    subtitle: "Dual-layer security",
+    description: "CDP secures the certificate physically, while blockchain anchors the issuance data, providing both physical and digital verification.",
   },
   {
     icon: Eye,
     title: "Invisible to Users, Powerful for Institutions",
-    subtitle: "No change to user experience",
-    description: "CDP operates seamlessly in the background. Institutions gain stronger anti-counterfeit protection without adding friction for certificate holders or verifiers.",
+    subtitle: "Seamless integration",
+    description: "CDP works quietly in the background, enhancing security without disrupting the certificate experience for users or verifiers.",
   },
 ];
 
