@@ -1,5 +1,4 @@
-import { Shield, Layers, ArrowRight, Link, Database, Clock, Eye, CheckCircle, QrCode, Activity } from "lucide-react";
-import verificationImage from "@/assets/verification-illustration.png";
+import { Shield, Layers, ArrowRight, Database, Clock, Eye, CheckCircle, QrCode, Activity } from "lucide-react";
 
 const SolutionSection = () => {
   const diagramSteps = [
@@ -94,14 +93,6 @@ const SolutionSection = () => {
                 </div>
               </div>
 
-              {/* Verification Image */}
-              <div className="mt-10">
-                <img 
-                  src={verificationImage} 
-                  alt="Certificate verification with QR code scanning showing successful verification" 
-                  className="w-64 h-auto mx-auto lg:mx-0 rounded-xl shadow-soft"
-                />
-              </div>
             </div>
 
             {/* Right visual - Diagram */}
