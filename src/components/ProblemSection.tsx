@@ -9,7 +9,7 @@ const problems = [
   {
     icon: Mail,
     title: "Manual and inefficient verification",
-    description: "Verification requests rely on emails, phone calls, or internal registers — wasting valuable administrative time.",
+    description: "Verification requests rely on emails, phone calls, or internal registers wasting valuable administrative time.",
   },
   {
     icon: Clock,

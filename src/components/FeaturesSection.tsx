@@ -1,4 +1,4 @@
-import { ShieldCheck, Clock, QrCode, Globe, Check, X, Eye } from "lucide-react";
+import { ShieldCheck, Clock, QrCode, Globe, MinusCircle } from "lucide-react";
 
 const enablesFeatures = [
   {
@@ -16,11 +16,6 @@ const enablesFeatures = [
   {
     icon: Globe,
     title: "Independent verification without institutional intervention",
-  },
-  {
-    icon: Eye,
-    title: "Global Visibility of Credential Verification Activity",
-    description: "Institutions can track where and when their certificates are verified, providing insights into global verification activity without manual intervention.",
   },
 ];
 
@@ -47,7 +42,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* Features grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-7xl mx-auto mb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-20">
           {enablesFeatures.map((feature, index) => (
             <div
               key={index}
@@ -59,17 +54,12 @@ const FeaturesSection = () => {
               <p className="text-foreground font-medium leading-relaxed">
                 {feature.title}
               </p>
-              {'description' in feature && feature.description && (
-                <p className="text-muted-foreground text-sm mt-2">
-                  {feature.description}
-                </p>
-              )}
             </div>
           ))}
         </div>
 
         {/* What we don't do */}
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="bg-cream-dark/50 rounded-2xl p-8 border border-border/50">
             <h3 className="font-heading text-2xl font-bold text-foreground mb-2 text-center">
               What the Platform Does Not Do
@@ -78,14 +68,14 @@ const FeaturesSection = () => {
               The institution retains full ownership of curriculum, evaluation, and certification decisions.
             </p>
             
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid md:grid-cols-3 gap-6">
               {doesNotDo.map((item, index) => (
                 <div
                   key={index}
                   className="flex items-center gap-3 p-4 rounded-xl bg-background/50 border border-border/30"
                 >
-                  <div className="w-8 h-8 rounded-full bg-muted flex items-center justify-center flex-shrink-0">
-                    <X className="w-4 h-4 text-muted-foreground" />
+                  <div className="w-8 h-8 rounded-full bg-muted/50 flex items-center justify-center flex-shrink-0">
+                    <MinusCircle className="w-4 h-4 text-muted-foreground" />
                   </div>
                   <span className="text-sm text-muted-foreground">
                     {item}

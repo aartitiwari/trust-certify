@@ -40,19 +40,6 @@ const HeroSection = () => {
             </Button>
           </div>
 
-          {/* Trust indicators */}
-          <div className="mt-16 pt-8 border-t border-border/50 animate-fade-in stagger-4 opacity-0" style={{ animationFillMode: 'forwards' }}>
-            <p className="text-sm text-muted-foreground mb-4">
-              Deployed with trusted organisations
-            </p>
-            <div className="flex flex-wrap justify-center gap-8 items-center opacity-60">
-              <span className="font-heading text-lg font-semibold text-foreground">IRMRI</span>
-              <span className="w-1 h-1 rounded-full bg-primary" />
-              <span className="font-heading text-lg font-semibold text-foreground">Konkan Bhavan</span>
-              <span className="w-1 h-1 rounded-full bg-primary" />
-              <span className="font-heading text-lg font-semibold text-foreground">Navi Mumbai Municipal Corporation</span>
-            </div>
-          </div>
         </div>
       </div>
 
