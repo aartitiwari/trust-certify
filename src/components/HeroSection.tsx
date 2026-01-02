@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { ArrowRight, ShieldCheck } from "lucide-react";
 import FloatingOrbs from "./FloatingOrbs";
+import DemoRequestDialog from "./DemoRequestDialog";
 
 const HeroSection = () => {
   return (
@@ -31,10 +32,12 @@ const HeroSection = () => {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center animate-slide-up stagger-3 opacity-0" style={{ animationFillMode: 'forwards' }}>
-            <Button variant="hero" size="xl">
-              Request a Demo
-              <ArrowRight className="w-5 h-5" />
-            </Button>
+            <DemoRequestDialog>
+              <Button variant="hero" size="xl">
+                Request a Demo
+                <ArrowRight className="w-5 h-5" />
+              </Button>
+            </DemoRequestDialog>
             <Button variant="heroOutline" size="xl">
               Learn More
             </Button>

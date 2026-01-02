@@ -1,5 +1,6 @@
 import { Button } from "./ui/button";
 import { ArrowRight, Shield } from "lucide-react";
+import DemoRequestDialog from "./DemoRequestDialog";
 
 const CTASection = () => {
   return (
@@ -23,13 +24,15 @@ const CTASection = () => {
             Join trusted institutions in delivering tamper-proof certificates with instant verification capabilities.
           </p>
 
-          <Button 
-            size="xl" 
-            className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 hover:scale-105 transition-all duration-300 shadow-lg"
-          >
-            Request a Demo
-            <ArrowRight className="w-5 h-5" />
-          </Button>
+          <DemoRequestDialog>
+            <Button 
+              size="xl" 
+              className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 hover:scale-105 transition-all duration-300 shadow-lg"
+            >
+              Request a Demo
+              <ArrowRight className="w-5 h-5" />
+            </Button>
+          </DemoRequestDialog>
         </div>
       </div>
     </section>
