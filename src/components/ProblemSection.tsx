@@ -4,7 +4,7 @@ const problems = [
   {
     icon: Bot,
     title: "AI-enabled certificate counterfeiting",
-    description: "AI tools are increasingly used to forge degree certificates, skill credentials, and official documents—replicating formats, seals, signatures, and QR codes—making visual or manual verification ineffective.",
+    description: "AI tools are now being used to forge certificates and official credentials, replicating formats, seals, and QR codes making visual verification unreliable.",
   },
   {
     icon: AlertTriangle,
@@ -35,7 +35,7 @@ const ProblemSection = () => {
             The Problem We Address
           </h2>
           <p className="text-muted-foreground text-lg">
-            These issues directly impact institutional reputation and administrative efficiency.
+            Credential fraud and unverifiable certificates pose a growing risk to institutions.
           </p>
         </div>
 

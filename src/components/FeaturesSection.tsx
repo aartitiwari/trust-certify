@@ -1,4 +1,4 @@
-import { ShieldCheck, Clock, QrCode, Globe, MinusCircle } from "lucide-react";
+import { ShieldCheck, Clock, QrCode, Globe, MinusCircle, ShieldAlert } from "lucide-react";
 
 const enablesFeatures = [
   {
@@ -16,6 +16,10 @@ const enablesFeatures = [
   {
     icon: Globe,
     title: "Independent verification without institutional intervention",
+  },
+  {
+    icon: ShieldAlert,
+    title: "Protection Against Forged and Misrepresented Certificates",
   },
 ];
 
@@ -42,7 +46,7 @@ const FeaturesSection = () => {
         </div>
 
         {/* Features grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto mb-20">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6 max-w-6xl mx-auto mb-20">
           {enablesFeatures.map((feature, index) => (
             <div
               key={index}
