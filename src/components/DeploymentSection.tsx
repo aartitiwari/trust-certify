@@ -1,7 +1,7 @@
 import { Landmark, Award, GraduationCap, BadgeCheck, Building2 } from "lucide-react";
 
 const applicableFor = [
-  { icon: Building2, text: "Universities and Higher Education Institutions" },
+  { icon: Building2, text: "Universities and Higher Education Institutions", description: "Issue and verify degree certificates, transcripts, and academic credentials." },
   { icon: Landmark, text: "Government and autonomous institutes" },
   { icon: Award, text: "Certification and awarding bodies" },
   { icon: GraduationCap, text: "Skill development and training authorities" },
@@ -37,6 +37,11 @@ const DeploymentSection = () => {
               <p className="text-foreground font-medium text-sm font-body">
                 {item.text}
               </p>
+              {'description' in item && item.description && (
+                <p className="text-muted-foreground text-xs mt-2 font-body">
+                  {item.description}
+                </p>
+              )}
             </div>
           ))}
         </div>
