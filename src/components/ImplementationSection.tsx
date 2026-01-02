@@ -39,7 +39,7 @@ const ImplementationSection = () => {
             How Institutions Deploy EmerCerts
           </h2>
           <p className="text-muted-foreground text-lg">
-            EmerCerts integrates seamlessly with existing institutional systems and workflows, without requiring changes to examinations, assessments, or result-generation processes.
+            EmerCerts integrates seamlessly with existing institutional systems and workflows, without requiring changes to examinations, assessments, or result-generation processes. Integrates seamlessly with existing systems without vendor lock-in or dependency on proprietary registries.
           </p>
         </div>
 

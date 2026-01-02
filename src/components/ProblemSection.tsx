@@ -2,6 +2,11 @@ import { AlertTriangle, Mail, Clock, Bot } from "lucide-react";
 
 const problems = [
   {
+    icon: Bot,
+    title: "AI-enabled certificate counterfeiting",
+    description: "AI tools are increasingly used to forge degree certificates, skill credentials, and official documents—replicating formats, seals, signatures, and QR codes—making visual or manual verification ineffective.",
+  },
+  {
     icon: AlertTriangle,
     title: "Loss of control after issuance",
     description: "Certificates leave institutional systems and circulate externally, with limited ability to ensure authenticity.",
@@ -15,11 +20,6 @@ const problems = [
     icon: Clock,
     title: "Inability to prove issuance details",
     description: "Establishing when a certificate was issued, and whether it was altered, becomes difficult over time.",
-  },
-  {
-    icon: Bot,
-    title: "AI-enabled certificate counterfeiting",
-    description: "AI tools are increasingly used to forge degree certificates and credentials, replicating official formats, seals, and signatures, making visual verification ineffective.",
   },
 ];
 
