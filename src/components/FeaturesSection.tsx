@@ -37,7 +37,7 @@ const FeaturesSection = () => {
             What the Platform Enables
           </h2>
           <p className="text-muted-foreground text-lg">
-            Certificates can be verified by any third party with a single scan or link.
+            Certificates can be verified by any third party with a single scan or link. Protection Against Forged and Misrepresented Certificates.
           </p>
         </div>
 
