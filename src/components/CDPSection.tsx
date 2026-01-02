@@ -46,7 +46,7 @@ const CDPSection = () => {
                 Copy Detection Pattern (CDP) for Certificates
               </h2>
               <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-                We provide an advanced security layer for QR codes using Copy Detection Pattern (CDP) technology, designed to protect certificates from counterfeiting.
+                We provide an advanced security layer for QR codes using Copy Detection Pattern (CDP) technology, designed to protect certificates from counterfeiting. CDP-enabled QR codes are widely used in secure printing and official documents to detect copied, reprinted, or AI-reproduced certificates.
               </p>
               
               <div className="space-y-6">
